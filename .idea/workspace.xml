@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93fa4cff-dca2-4e66-ac91-a702829b6be3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/bounding_box_utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bounding_box_utils/bounding_box_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_annotations copy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_annotations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/data_augmentation_chain_constant_input_size.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/data_augmentation_chain_original_ssd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/data_augmentation_chain_satellite.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/data_augmentation_chain_variable_input_size.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/object_detection_2d_data_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/object_detection_2d_geometric_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/object_detection_2d_image_boxes_validation_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/object_detection_2d_misc_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/object_detection_2d_patch_sampling_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generator/object_detection_2d_photometric_ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eval_utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eval_utils/average_precision_evaluator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eval_utils/coco_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fish-bike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/fish_bike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd300_pascalVOC_pred_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd7_udacity_traffic_pred_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd7_udacity_traffic_pred_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd7_udacity_traffic_pred_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd7_udacity_traffic_pred_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/ssd7_udacity_traffic_pred_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_01_no_gt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_02_no_gt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_03_no_gt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_04_no_gt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_05_no_gt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/trained_ssd300_pascalVOC2007_test_pred_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_layers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_layers/keras_layer_AnchorBoxes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_layers/keras_layer_DecodeDetections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_layers/keras_layer_DecodeDetectionsFast.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_layers/keras_layer_L2Normalization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_loss_function/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keras_loss_function/keras_ssd_loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc_utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc_utils/tensor_sampling_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/keras_ssd300.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/keras_ssd512.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/keras_ssd7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd300_evaluation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd300_evaluation_COCO.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd300_inference.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd300_training.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd512_inference.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd7_training.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd_encoder_decoder/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd_encoder_decoder/matching_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd_encoder_decoder/ssd_input_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ssd_encoder_decoder/ssd_output_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weight_sampling_tutorial.ipynb" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data_generator/object_detection_2d_data_generator.py" />
+        <option value="$PROJECT_DIR$/create_annotations.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="55" />
+    <option name="width" value="1280" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aiator_ssd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aiator_ssd" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93fa4cff-dca2-4e66-ac91-a702829b6be3" name="Default" comment="" />
+      <created>1543134570688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543134570688</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32965517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/create_annotations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="914">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_generator/object_detection_2d_data_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="826" column="25" selection-start-line="826" selection-start-column="13" selection-end-line="826" selection-end-column="25" />
+          <folding>
+            <element signature="e#613#644#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
