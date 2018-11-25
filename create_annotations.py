@@ -65,7 +65,7 @@ for cnt in range(1,91):
     content_1 = temp_path+','+str(x_1_min)+','+str(y_1_min)+','+str(x_1_max)+','+str(y_1_max)+','+str(0)+'\n'
     content_2 = temp_path+','+str(x_2_min)+','+str(y_2_min)+','+str(x_2_max)+','+str(y_2_max)+','+str(0)+'\n'
     f_train.write(content_1)
-    f_train.write(content_1)
+    f_train.write(content_2)
 
 
 for cnt in range(101,105):
