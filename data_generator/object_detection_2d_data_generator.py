@@ -392,8 +392,8 @@ class DataGenerator:
             else: it = self.filenames
             for filename in it:
                 with Image.open(filename) as image:
-                    if image.ndim == 2:
-                        image = np.stack([image] * 3, axis=-1)
+                    image = np.array(image, dtype=np.uint8)
+                    image = np.stack([image] * 3, axis=-1)
                     self.images.append(np.array(image, dtype=np.uint8))
 
         if ret: # In case we want to return these
