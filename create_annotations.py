@@ -98,73 +98,73 @@ for cnt in range(91,101):
     f_val.write(content_1)
     f_val.write(content_2)
 
-# augmentation including rotation (90 degree)
-
-
-f_train.close()
-f_val.close()
-
-with open(annotation_path_train) as f_train:
-    lines_train = f_train.readlines()
-with open(annotation_path_val) as f_val:
-    lines_val = f_val.readlines()
-
-
-# transpose
-for i in range(len(lines_train)):
-    line = lines_train[i].split(',')
-    image = Image.open(os.path.join(train_path,line[0]))
-
-    image = image.transpose(Image.TRANSPOSE)
-    path = 'rotate_'+line[0]
-
-    new_box = []
-    new_box.append(int(line[2]))
-    new_box.append(int(line[1]))
-    new_box.append(int(line[4]))
-    new_box.append(int(line[3]))
-
-        # ellipse_x = int((new_box[0] + new_box[2]) / 2)
-        # ellipse_y = int((new_box[1] + new_box[3]) / 2)
-        # draw = ImageDraw.Draw(image)
-        # draw.ellipse([(ellipse_x - 10, ellipse_y - 10), (ellipse_x + 10, ellipse_y + 10)], fill=(0))
-        # del draw
-
-    new_box.append(0)
-
-    image.save(os.path.join(train_path,path))
-    content = path+','+','.join(str(a) for a in new_box)+'\n'
-    # save into annotation
-    with open(annotation_path_train,'a') as f_train:
-        f_train.write(content)
-
-# transpose
-for i in range(len(lines_val)):
-    line = lines_val[i].split(',')
-    image = Image.open(os.path.join(val_path, line[0]))
-
-    image = image.transpose(Image.TRANSPOSE)
-    path = 'rotate_'+line[0]
-
-    boxes = [list(map(int, box.split(','))) for box in line[1:]]
-
-    new_box = []
-    new_box.append(int(line[2]))
-    new_box.append(int(line[1]))
-    new_box.append(int(line[4]))
-    new_box.append(int(line[3]))
-
-        # ellipse_x = int((new_box[0]+new_box[2])/2)
-        # ellipse_y = int((new_box[1]+new_box[3])/2)
-        # draw = ImageDraw.Draw(image)
-        # draw.ellipse([( ellipse_x- 10, ellipse_y - 10), (ellipse_x + 10, ellipse_y + 10)], fill=(0))
-        # del draw
-
-
-    new_box.append(0)
-
-    image.save(os.path.join(val_path,path))
-    content = path + ',' + ','.join(str(a) for a in new_box) + '\n'
-    # save into annotation
-    with open(annotation_path_val,'a') as f_val:
-        f_val.write(content)
+# # augmentation including rotation (90 degree)
+#
+#
+# f_train.close()
+# f_val.close()
+#
+# with open(annotation_path_train) as f_train:
+#     lines_train = f_train.readlines()
+# with open(annotation_path_val) as f_val:
+#     lines_val = f_val.readlines()
+#
+#
+# # transpose
+# for i in range(len(lines_train)):
+#     line = lines_train[i].split(',')
+#     image = Image.open(os.path.join(train_path,line[0]))
+#
+#     image = image.transpose(Image.TRANSPOSE)
+#     path = 'rotate_'+line[0]
+#
+#     new_box = []
+#     new_box.append(int(line[2]))
+#     new_box.append(int(line[1]))
+#     new_box.append(int(line[4]))
+#     new_box.append(int(line[3]))
+#
+#         # ellipse_x = int((new_box[0] + new_box[2]) / 2)
+#         # ellipse_y = int((new_box[1] + new_box[3]) / 2)
+#         # draw = ImageDraw.Draw(image)
+#         # draw.ellipse([(ellipse_x - 10, ellipse_y - 10), (ellipse_x + 10, ellipse_y + 10)], fill=(0))
+#         # del draw
+#
+#     new_box.append(0)
+#
+#     image.save(os.path.join(train_path,path))
+#     content = path+','+','.join(str(a) for a in new_box)+'\n'
+#     # save into annotation
+#     with open(annotation_path_train,'a') as f_train:
+#         f_train.write(content)
+#
+# # transpose
+# for i in range(len(lines_val)):
+#     line = lines_val[i].split(',')
+#     image = Image.open(os.path.join(val_path, line[0]))
+#
+#     image = image.transpose(Image.TRANSPOSE)
+#     path = 'rotate_'+line[0]
+#
+#     boxes = [list(map(int, box.split(','))) for box in line[1:]]
+#
+#     new_box = []
+#     new_box.append(int(line[2]))
+#     new_box.append(int(line[1]))
+#     new_box.append(int(line[4]))
+#     new_box.append(int(line[3]))
+#
+#         # ellipse_x = int((new_box[0]+new_box[2])/2)
+#         # ellipse_y = int((new_box[1]+new_box[3])/2)
+#         # draw = ImageDraw.Draw(image)
+#         # draw.ellipse([( ellipse_x- 10, ellipse_y - 10), (ellipse_x + 10, ellipse_y + 10)], fill=(0))
+#         # del draw
+#
+#
+#     new_box.append(0)
+#
+#     image.save(os.path.join(val_path,path))
+#     content = path + ',' + ','.join(str(a) for a in new_box) + '\n'
+#     # save into annotation
+#     with open(annotation_path_val,'a') as f_val:
+#         f_val.write(content)
